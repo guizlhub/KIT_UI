@@ -1,0 +1,117 @@
+.articles_titles {
+  color: #40E0D0;
+  text-align: center;
+}
+
+.border {
+  padding:10px;
+  margin: 10px;
+  border: 2px solid #000101;
+}
+
+.container_horizontal {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+/* === COULEUR === */
+.couleur_position {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+}
+
+.primary {
+  background-color: #007FFF;
+}
+
+.secondary {
+  background-color: #40E0D0;
+}
+
+.dark {
+  background-color: #293133;
+}
+
+.medium-light {
+  background-color: #D1D0D0;
+}
+
+.light {
+  background-color: #EEEDED;
+}
+/* === FIN COULEUR === */
+/* === DEBUT TYPO == */
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Medium.ttf') format('ttf');
+    src: url('Oswald-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Light.ttf') format('ttf');
+    src: url('Lato-Light.woff') format('woff');
+}
+
+.heading {
+  font-family: Oswald, sans-serif;
+}
+
+.police {
+  width: 300px;
+  height: 180px;
+  text-align: left;
+  font-family: Lato, sans-serif;
+}
+/* === FIN TYPO === */
+/* === DEBUT BOUTONS == */
+.warning {
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: #FFC961;
+}
+.warning:hover {
+  background-color: #FFDB58;
+}
+
+.danger {
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: #FFC961;
+}
+
+.danger:hover {
+
+}
+
+.success {
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: #FFC961;
+}
+
+.succes:hover {
+
+}
+
+.info {
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: #40E0D0;
+}
+
+.info:hover {
+
+}
+/* === FIN BOUTONS === */
